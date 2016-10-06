@@ -239,13 +239,16 @@ protocol DogYears {
     func ageInDogYears() -> Int
 }
 
+extension DogYears {
+    func ageInDogYears() -> Int{
+        return age * 7
+    }
+}
+
 class Dog: DogYears {
     
     var age = 1
-    
-    func ageInDogYears() -> Int {
-        return age * 7
-    }
+
 }
 
 
@@ -255,10 +258,7 @@ class Student: Person, DogYears {
     
     var studentID: String?
     var classNumber: Int?
-    
-    func ageInDogYears() -> Int {
-        return age * 7
-    }
+
 }
 
 let student1 = Student(name: "Mike")
@@ -268,8 +268,15 @@ student1.studentID = "quippoth"
 
 //Extensions
 
+extension String{
+    
+    func length() -> Int{
+        return self.characters.count
+    }
+}
 
-
+let myString = "this is a test string"
+myString.length()
 
 
 //Functions
