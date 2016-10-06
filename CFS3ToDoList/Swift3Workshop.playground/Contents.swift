@@ -189,17 +189,86 @@ if let surveyAnswer = surveyAnswer{
 
 //Classes and Structs
 
+struct ScreenLocation {
+    var x: Int
+    var y: Int
+}
+
+let location = ScreenLocation(x: 0, y: 0)
+
+var location2 = location
+location2.x = 10
+
+location2.x
+location.x
+
+
+class Person {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int = 0) {
+        self.name = name
+        self.age = age
+    }
+}
+
+let myPerson = Person(name: "Erica", age: 40)
+
+myPerson.name
+myPerson.age
+
+let myFriend = Person(name: "Joe")
+
+myFriend.name
+myFriend.age
+
+//Copy vs Reference
+
+var otherPerson = myPerson
+
+otherPerson.age = 100
+myPerson.age
 
 
 //Protocols
 
+protocol DogYears {
+    var age : Int {set get}
+    
+    func ageInDogYears() -> Int
+}
+
+class Dog: DogYears {
+    
+    var age = 1
+    
+    func ageInDogYears() -> Int {
+        return age * 7
+    }
+}
 
 
 //Inheritance
 
+class Student: Person, DogYears {
+    
+    var studentID: String?
+    var classNumber: Int?
+    
+    func ageInDogYears() -> Int {
+        return age * 7
+    }
+}
+
+let student1 = Student(name: "Mike")
+student1.classNumber = 401
+student1.studentID = "quippoth"
 
 
 //Extensions
+
+
 
 
 
