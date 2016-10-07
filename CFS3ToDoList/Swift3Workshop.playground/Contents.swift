@@ -281,7 +281,36 @@ myString.length()
 
 //Functions
 
+func greet(person: String = "Errbody") -> String {
+    let greeting = "Hello, " + person + "!"
+    return greeting
+}
 
+greet(person: "Errbody")
+
+greet(person: "Erica")
+greet()
+
+func addThese(numbers: Int...) -> Int {
+
+    var total = 0
+    
+    for number in numbers{
+        total += number
+    }
+    
+    return total
+}
+
+addThese(numbers: 0,1,2,3,4,5)
+
+func changeStuff(number: Int, callback:(Int) -> ()) {
+    callback(number * number)
+}
+
+changeStuff(number: 10) { (results) in
+    
+}
 
 //Closures
 
