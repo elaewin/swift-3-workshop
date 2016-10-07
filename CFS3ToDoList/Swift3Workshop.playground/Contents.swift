@@ -308,13 +308,56 @@ func changeStuff(number: Int, callback:(Int) -> ()) {
     callback(number * number)
 }
 
+
+//Closures
+
 changeStuff(number: 10) { (results) in
     
 }
 
-//Closures
+//Coding Challenges
+
+//1. Create a function that takes in an array of Int's, loops through them, and returns a sum of all the numbers as an Int.
+
+func addUpArray(array: [Int]) -> Int {
+    
+    var total = 0
+    
+    for number in array{
+        total += number
+    }
+    
+    return total
+}
+
+let arrayToSum = [1,2,3,4,5]
+
+addUpArray(array: arrayToSum)
 
 
+//2. Create a function that takes in a String and checks if it is a palindrome and returns a Bool(True or False).
 
+func testForPalindrome(string: String) -> Bool {
+    
+    var condensedString = string.replacingOccurrences(of: " ", with: "")
+    condensedString = condensedString.lowercased()
+    let stringChars = condensedString.characters
+    
+    let reverseChars = stringChars.reversed()
+    let reverseString = String(reverseChars)
+    
+    if condensedString == reverseString {
+        return true
+    } else {
+        return false
+    }
+
+}
+
+testForPalindrome(string: "Hi there")
+testForPalindrome(string: "A Santa at Nasa")
+
+
+//3. Create a new class of your choice that conforms to the DogYears protocol, but changes the default implementation.
 
 
