@@ -46,3 +46,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     
 }
 
+//Coding Challenges
+
+//1. Look into subclassing UITableViewCell and create your own custom subclass.
+
+//2. Research UITablViewHeaderView and UIImageView and give your Todo list a custom HeaderView.
