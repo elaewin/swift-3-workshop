@@ -15,6 +15,7 @@
 		1AB4B3CE1D93068B008DD0F0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3CD1D93068B008DD0F0 /* Todo.swift */; };
 		1AB4B3D61D933619008DD0F0 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3D51D933619008DD0F0 /* Identity.swift */; };
 		1AB4B3D81D9336A7008DD0F0 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3D71D9336A7008DD0F0 /* TodoList.swift */; };
+		55EF93651DAAFA680040FE57 /* NewTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF93641DAAFA680040FE57 /* NewTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1AB4B3CD1D93068B008DD0F0 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		1AB4B3D51D933619008DD0F0 /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		1AB4B3D71D9336A7008DD0F0 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		55EF93641DAAFA680040FE57 /* NewTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1AB4B3B91D904C5F008DD0F0 /* Main.storyboard */,
+				55EF93641DAAFA680040FE57 /* NewTodoViewController.swift */,
 				1AB4B3BE1D904C60008DD0F0 /* LaunchScreen.storyboard */,
 			);
 			name = storyboards;
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB4B3B81D904C5F008DD0F0 /* ViewController.swift in Sources */,
+				55EF93651DAAFA680040FE57 /* NewTodoViewController.swift in Sources */,
 				1AB4B3D81D9336A7008DD0F0 /* TodoList.swift in Sources */,
 				1AB4B3CE1D93068B008DD0F0 /* Todo.swift in Sources */,
 				1AB4B3B61D904C5F008DD0F0 /* AppDelegate.swift in Sources */,
