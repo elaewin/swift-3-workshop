@@ -235,4 +235,3 @@ challengeDict[5] = "fifth"
 challengeDict[4] = nil
 
 print("the challengeDict dictionary contains \(challengeDict.count) items.")
-
