@@ -205,7 +205,6 @@ for planet in planets {
     }
 }
 
-
 //2. Declare a tuple that can hold 4 values. These values should be called x, y, width, and height. Then write a corresponding switch statement to handle different cases of this tuple.
 
 let challengeTuple = (x: 3, y: 2, width: 12, height: 41)
@@ -222,7 +221,6 @@ case(let a, let b, let c, 42):
 default:
     print("No numbers matched.")
 }
-
 
 //3. Declare a Dictionary of type [Int: String]. Give it some default values. Then, remove a value for a specific key. Lastly, once the value has been removed, print the count of objects in the Dictionary to the console. This will take some research.
 
