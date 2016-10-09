@@ -360,4 +360,8 @@ testForPalindrome(string: "A Santa at Nasa")
 
 //3. Create a new class of your choice that conforms to the DogYears protocol, but changes the default implementation.
 
-
+class Werewolf: Person, DogYears {
+    
+    
+    
+}
