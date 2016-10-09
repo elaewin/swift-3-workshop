@@ -4,6 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
+
 // Constants and Variables
 
 var myVariable = 42
@@ -22,6 +23,7 @@ let maxValue = UInt8.max
 let myFloat : Float = 1.234937
 let mydouble : Double = 1.234937987231234
 
+
 //String
 
 let someString = "Some string literal value goes here."
@@ -35,9 +37,6 @@ let lastName = "Winberry"
 var fullName = String()
 
 fullName = firstName + " " + lastName
-
-
-//Type Inference
 
 
 //Tuple
@@ -55,6 +54,7 @@ let set: Set = [1,2,3,4]
 let setB: Set = [1,9,8,4,2,8]
 
 let result = set.intersection(setB)
+
 
 //Array
 
@@ -76,6 +76,7 @@ var dictionaryTwo = ["name": "Mars"]
 
 dictionaryTwo["location"] = "Home"
 dictionaryTwo["name"] = "Earth"
+
 
 //For-In Loop
 
@@ -101,6 +102,7 @@ while counter <= 100 {
     counter += 1
 }
 
+
 //Repeat While
 
 var repeatCount = 100
@@ -108,6 +110,7 @@ var repeatCount = 100
 repeat {
     print("This will repeat at least once.")
 } while repeatCount < 10
+
 
 //If Statement
 
@@ -130,6 +133,7 @@ if anotherTemp == 0 {
 } else {
     print("It's not that cold. Wear a t-shirt.")
 }
+
 
 //Switch Statement
 
@@ -177,6 +181,7 @@ default:
     print("(\(somePoint.x), \(somePoint.y)) is outside of the box")
 }
 
+
 //Optionals
 
 var surveyAnswer: String?
@@ -187,8 +192,8 @@ if surveyAnswer != nil{
     print(surveyAnswer)
 }
 
-//Coding Challenges
 
+//Coding Challenges
 
 //1. Declare an array of strings containing all the names of the planets within our solar system. Create a for loop to iterate over each planet name. Inside the for loop, write an if statement that checks if the array contains a value for "Earth". If it does, print("YAY Earth!").
 
@@ -199,6 +204,7 @@ for planet in planets {
         print("YAY Earth!")
     }
 }
+
 
 //2. Declare a tuple that can hold 4 values. These values should be called x, y, width, and height. Then write a corresponding switch statement to handle different cases of this tuple.
 
